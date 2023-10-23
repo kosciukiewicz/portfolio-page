@@ -1,0 +1,49 @@
+{
+  "name": "Witold Kościukiewicz",
+  "position": "Machine Learning Engineer at Alphamoon",
+  "location": "Wrocław, Poland",
+  "email_address": "contact@kosciukiewicz.tech",
+  "github": "https://github.com/kosciukiewicz",
+  "linked_in": "https://www.linkedin.com/in/witold-kosciukiewicz",
+  "about": "Experienced software engineer with expertise in machine learning, microservice architecture, and natural language processing. Proven ability to design, develop, and deploy high-performance machine learning models and backend services. Passionate about optimization techniques and innovation, seeking opportunities to apply cutting-edge technologies to solve real-world problems.",
+  "skills": [
+    {
+      "skill_type": "Machine Learning - research",
+      "skills": [
+        "Natural Language Processing",
+        "Generative language modeling",
+        "LLMs"
+      ]
+    },
+    {
+      "skill_type": "Machine Learning - technical",
+      "skills": [
+        "PyTorch",
+        "Numpy",
+        "Pandas",
+        "Numpy",
+        "matplotlib",
+        "tensorboard",
+        "dvc",
+        "Hugging Face Transformers"
+      ]
+    },
+    {
+      "skill_type": "Python frameworks",
+      "skills": ["FastAPI", "asyncio", "SQLAlchemy"]
+    },
+    {
+      "skill_type": "Programming languages & other",
+      "skills": [
+        "Python",
+        "Rust",
+        "Typescript",
+        "MongoDB",
+        "SQL",
+        "PostgreSQL",
+        "Docker",
+        "K8S"
+      ]
+    }
+  ]
+}

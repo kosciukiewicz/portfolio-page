@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Similarity-Based Memory Enhanced Joint Entity and Relation Extraction",
+    "authors": "**Witold Kościukiewicz**, Mateusz Wójcik, Tomasz Kajdanowicz & Adam Gonczarek",
+    "year": 2023,
+    "proceedings": "Proceedings of the International Conference on Computational Science (pp. 290-297). Cham: Springer Nature Switzerland. DOI:10.1007/978-3-031-36021-3_29",
+    "conference": "ICCS",
+    "links": [
+      {
+        "name": "pdf",
+        "url": "https://arxiv.org/pdf/2307.11762v1.pdf"
+      },
+      {
+        "name": "code",
+        "url": "https://github.com/kosciukiewicz/similarity_based_memory_re"
+      }
+    ]
+  },
+  {
+    "title": "Domain-Agnostic Neural Architecture for Class Incremental Continual Learning in Document Processing Platform",
+    "authors": "Mateusz Wójcik, **Witold Kościukiewicz**, Mateusz Baran, Tomasz Kajdanowicz, & Adam Gonczarek",
+    "year": 2023,
+    "proceedings": "In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track) (pp. 527-537). DOI: 10.18653/v1/2023.acl-industry.51",
+    "conference": "ACL"
+  },
+  {
+    "title": "Neural Architecture for Online Ensemble Continual Learning",
+    "authors": "Mateusz Wójcik, **Witold Kościukiewicz**, Tomasz Kajdanowicz, & Adam Gonczarek",
+    "year": 2022,
+    "proceedings": "NeurIPS MetaLearn Workshop",
+    "conference": "NIPS"
+  }
+]

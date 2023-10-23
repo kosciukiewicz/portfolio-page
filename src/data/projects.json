@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Similarity-based Memory Enhanced Joint Entity and Relation Extraction",
+    "description": "Official PyTorch implementation of the paper accepted on the International Conference on Computational Science 2023.",
+    "cover_image_url": "./projects/similarity_based_relation_extraction.jpeg",
+    "read_more_link": "https://github.com/kosciukiewicz/similarity_based_memory_re"
+  },
+  {
+    "title": "Personal Portfolio Page",
+    "description": "A clean and modern personal website built with TypeScript, React and Ant Design 5.0",
+    "cover_image_url": "./projects/portfolio_page.jpeg",
+    "read_more_link": "https://github.com/kosciukiewicz/portfolio_page"
+  }
+]
