@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cdfe67c.css",
-    "main.js": "/static/js/main.f8addfa7.js",
-    "static/js/787.28a6522c.chunk.js": "/static/js/787.28a6522c.chunk.js",
-    "static/media/me.jpg": "/static/media/me.092e4a78d086dbeb6c78.jpg",
-    "static/media/model_architecture.png": "/static/media/model_architecture.ff7d6a763887d5cf0f4d.png",
-    "static/media/CV_Witold_Kosciukiewicz.pdf": "/static/media/CV_Witold_Kosciukiewicz.bbdca1c2fbbcb6df9901.pdf",
-    "static/media/example_post_1.md": "/static/media/example_post_1.20c7004fbe086d307fcf.md",
-    "index.html": "/index.html",
-    "main.1cdfe67c.css.map": "/static/css/main.1cdfe67c.css.map",
-    "main.f8addfa7.js.map": "/static/js/main.f8addfa7.js.map",
-    "787.28a6522c.chunk.js.map": "/static/js/787.28a6522c.chunk.js.map"
+    "main.css": "/portfolio_page/static/css/main.1cdfe67c.css",
+    "main.js": "/portfolio_page/static/js/main.d4641fdd.js",
+    "static/js/787.28a6522c.chunk.js": "/portfolio_page/static/js/787.28a6522c.chunk.js",
+    "static/media/me.jpg": "/portfolio_page/static/media/me.092e4a78d086dbeb6c78.jpg",
+    "static/media/model_architecture.png": "/portfolio_page/static/media/model_architecture.ff7d6a763887d5cf0f4d.png",
+    "static/media/CV_Witold_Kosciukiewicz.pdf": "/portfolio_page/static/media/CV_Witold_Kosciukiewicz.bbdca1c2fbbcb6df9901.pdf",
+    "static/media/example_post_1.md": "/portfolio_page/static/media/example_post_1.20c7004fbe086d307fcf.md",
+    "index.html": "/portfolio_page/index.html",
+    "main.1cdfe67c.css.map": "/portfolio_page/static/css/main.1cdfe67c.css.map",
+    "main.d4641fdd.js.map": "/portfolio_page/static/js/main.d4641fdd.js.map",
+    "787.28a6522c.chunk.js.map": "/portfolio_page/static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cdfe67c.css",
-    "static/js/main.f8addfa7.js"
+    "static/js/main.d4641fdd.js"
   ]
 }
