@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "./static/css/main.78295476.css",
-    "main.js": "./static/js/main.2ae353bd.js",
+    "main.js": "./static/js/main.0a753f22.js",
     "static/js/787.28a6522c.chunk.js": "./static/js/787.28a6522c.chunk.js",
     "static/media/Inter-VariableFont.ttf": "./static/media/Inter-VariableFont.853e01975d2783d9fa29.ttf",
     "static/media/me.jpg": "./static/media/me.092e4a78d086dbeb6c78.jpg",
     "static/media/similarity_based_relation_extraction.jpeg": "./static/media/similarity_based_relation_extraction.bcdb685885c3f380b0f0.jpeg",
     "static/media/portfolio_page.jpeg": "./static/media/portfolio_page.15f567ff8bf0cc9054fc.jpeg",
-    "static/media/CV_Witold_Kosciukiewicz.pdf": "./static/media/CV_Witold_Kosciukiewicz.bbdca1c2fbbcb6df9901.pdf",
     "static/media/example_post_1.md": "./static/media/example_post_1.20c7004fbe086d307fcf.md",
     "index.html": "./index.html",
     "main.78295476.css.map": "./static/css/main.78295476.css.map",
-    "main.2ae353bd.js.map": "./static/js/main.2ae353bd.js.map",
+    "main.0a753f22.js.map": "./static/js/main.0a753f22.js.map",
     "787.28a6522c.chunk.js.map": "./static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78295476.css",
-    "static/js/main.2ae353bd.js"
+    "static/js/main.0a753f22.js"
   ]
 }
