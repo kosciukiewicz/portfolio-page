@@ -15,11 +15,11 @@ function ProjectsView() {
   const projects_data = projects as Project[];
   return (
     <ProjectsViewContainer>
-      <Space direction="vertical" style={{ width: "100%" }}>
+      <Space direction="vertical">
         <Text strong style={{ fontSize: "1.5em" }}>
           Projects
         </Text>
-        <Row gutter={[16, 16]}>
+        <Row gutter={[16, 16]} style={{ margin: "0px" }}>
           {projects_data.map((project) => (
             <Col key={project.title} span={8}>
               <ProjectsCard
