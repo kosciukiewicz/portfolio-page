@@ -1,12 +1,46 @@
-# Getting Started with Create React App
+# Personal Portfolio Page :brain:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ <p align="center">
+    <a href="https://github.com/kosciukiewicz/portfolio-page/actions/workflows/deploy-gh-pages.yml">
+      <img src="https://github.com/kosciukiewicz/portfolio-page/actions/workflows/deploy-gh-pages.yml/badge.svg" />
+    </a>
+    <a href="https://github.com/kosciukiewicz/protfolio-page/issues">
+      <img src="https://img.shields.io/github/issues/kosciukiewicz/portfolio-page"/>
+    </a>
+    <a href="https://github.com/kosciukiewicz/portfolio-page/stargazers">
+      <img src="https://img.shields.io/github/stars/kosciukiewicz/portfolio-page"/>
+    </a>
+    <a href="https://github.com/kosciukiewicz/portfolio-page/network/members">
+      <img src="https://img.shields.io/github/forks/kosciukiewicz/portfolio-page"/>
+    </a>
+    <a href="https://github.com/kosciukiewicz/portfolio-page/commits/master">
+      <img src="https://img.shields.io/github/last-commit/kosciukiewicz/portfolio-page/master"/>
+    </a>
+    <a href="https://github.com/kosciukiewicz/portfolio-page/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/kosciukiewicz/portfolio-page"/>
+    </a>
+  </p>
+
+### [Live demo](http://kosciukiewicz.tech) :link:
+
+Simple and minimalistic personal portfolio page built for personal use from scratch using React, TypeScript and Ant Design. Feel free to use and customize it to fit Your own needs.
+
+## Used technologies
+
+- Typescript
+- React
+- Ant Design
+- Github Actions
+
+## Customization guide
+
+Customize the site content effortlessly by editing the `.json` files located in the 'src/data/' directory. Simply modify the relevant values within these files to tailor the content according to your preferences.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+`yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,33 +48,32 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+`yarn eslint`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run eslint  - the tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 
-### `npm run build`
+`yarn prettier`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run Prettier code formatter. Run with `--write` flag to format the files in-place.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Manual deploy of static content on separate branch
 
-### `npm run eject`
+You can deploy the page manually running the built-in command:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ `yarn deploy`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The built static content will be pushed to dedicated `gh-pages` branch and served via Github Pages.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Automated Deployment with GitHub Actions 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The repository is configured with GitHub Actions for automated deployment to GitHub Pages (`deploy-gh-pages.yml` workflow). Whenever changes are pushed to the `master` branch, the GitHub Actions workflow will automatically build and deploy the project.
 
-## Learn More
+If you want to use this method, remember to turn on the appriopriate option in Github Pages section of reposittory settings.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Issues and Bug Reports
+If you encounter any issues or bugs, please create an issue on this repository.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+This project is licensed under the MIT License.
