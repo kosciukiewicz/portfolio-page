@@ -21,11 +21,10 @@
         "PyTorch",
         "Numpy",
         "Pandas",
-        "Numpy",
         "matplotlib",
         "tensorboard",
-        "dvc",
-        "Hugging Face Transformers"
+        "Hugging Face Transformers",
+        "dvc"
       ]
     },
     {
