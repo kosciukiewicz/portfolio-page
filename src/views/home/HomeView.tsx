@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 import AboutView from "./about/AboutView";
 import RouterView from "./router/RouterView";
@@ -17,7 +17,7 @@ const HomeViewContainer = styled.div`
 `;
 
 function HomeView() {
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  ReactGA.send({ hitType: "pageview", page: "/", title: "Home page" });
   return (
     <HomeViewContainer>
       <Row>
