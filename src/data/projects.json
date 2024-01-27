@@ -1,14 +1,41 @@
-[
-  {
-    "title": "Similarity-based Memory Enhanced Joint Entity and Relation Extraction",
-    "description": "Official PyTorch implementation of the paper accepted on the International Conference on Computational Science 2023.",
-    "cover_image_url": "./projects/similarity_based_relation_extraction.jpeg",
-    "read_more_link": "https://github.com/kosciukiewicz/similarity_based_memory_re"
-  },
-  {
-    "title": "Personal Portfolio Page",
-    "description": "A clean and modern personal website built with TypeScript, React and Ant Design 5.0",
-    "cover_image_url": "./projects/portfolio_page.jpeg",
-    "read_more_link": "https://github.com/kosciukiewicz/portfolio_page"
-  }
-]
+{
+  "projects": [
+    {
+      "title": "🤖 TODO Assistant",
+      "description": "Notion TODO board assistant build with LangChain and LangGraph. The purpose of the project was to familarize with the LangChain library trying to make it as production ready as possible with a high quality codebase.",
+      "cover_image_url": "./projects/similarity_based_relation_extraction.jpeg",
+      "read_more_link": "https://github.com/kosciukiewicz/todo-assistant",
+      "tags": [
+        "LangChain",
+        "LangGraph",
+        "DependencyInjection",
+        "Streamlit",
+        "Prompt engineering"
+      ]
+    },
+    {
+      "title": "📝 Similarity-based Memory Enhanced Joint Entity and Relation Extraction",
+      "description": "Official PyTorch implementation of the paper accepted on the International Conference on Computational Science 2023. Achievied SOTA results on popular Joint Entity and Relation extraction benchmarks.",
+      "cover_image_url": "./projects/similarity_based_relation_extraction.jpeg",
+      "read_more_link": "https://github.com/kosciukiewicz/similarity_based_memory_re",
+      "tags": ["PyTorch Lightning", "Hugginface Transformers", "Weights&Biases"]
+    },
+    {
+      "title": "💼 Personal Portfolio Page",
+      "description": "A clean and modern personal website built with TypeScript, React and Ant Design 5.0.",
+      "cover_image_url": "./projects/portfolio_page.jpeg",
+      "read_more_link": "https://github.com/kosciukiewicz/portfolio_page",
+      "tags": ["React", "Typescript", "Github actions"]
+    }
+  ],
+  "in_progress": [
+    {
+      "title": "🤖 TODO Assistant development",
+      "description": "Implementing new functionalities to make the assistant event more awesome while still experimenting with LangChain."
+    },
+    {
+      "title": "⚽ SBC solver",
+      "description": "Automatic solver for squad building challenges for the EA Sports FC game based on genetic alghorithms in rust, packed with web assembly and delivered as handy internet browser extension."
+    }
+  ]
+}

@@ -3,6 +3,9 @@ import styled from "styled-components";
 import eduction from "../../../../data/education.json";
 import experience from "../../../../data/experience.json";
 import { EducationItem, ExperienceItem } from "../../../../data/interfaces";
+import { useEffect, useState } from "react";
+import Markdown from "react-markdown";
+import { experience_description } from "../../../../data/experience_description/experience_descriptions";
 
 const { Text } = Typography;
 
@@ -25,7 +28,27 @@ const TimePeriodText = styled(Text)`
 const ExperienceItemDescriptionContainer = styled.div`
   max-width: 85%;
   text-align: justify;
+  color: black;
 `;
+
+interface ExperienceDescriptionViewProps {
+  description_filename: string;
+}
+
+function ExperienceDescriptionView(props: ExperienceDescriptionViewProps) {
+  const [current, setCurrent] = useState("");
+  useEffect(() => {
+    if (props.description_filename) {
+      fetch(experience_description[props.description_filename])
+        .then((response) => response.text())
+        .then((text) => {
+          setCurrent(text);
+        });
+    }
+  }, []);
+
+  return <Markdown>{current}</Markdown>;
+}
 
 function ExperienceView() {
   const eduction_data = eduction as EducationItem[];
@@ -66,9 +89,11 @@ function ExperienceView() {
                     <TimePeriodText strong>
                       {experience_item.title}
                     </TimePeriodText>
-                    <Text style={{ fontSize: "1em" }}>
-                      {experience_item.description}
-                    </Text>
+                    <ExperienceDescriptionView
+                      description_filename={
+                        experience_item.description_filename
+                      }
+                    />
                   </Space>
                 </ExperienceItemDescriptionContainer>
               ),

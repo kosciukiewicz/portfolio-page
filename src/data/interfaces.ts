@@ -14,11 +14,22 @@ export interface AboutSkill {
   skills: string[];
 }
 
+export interface Projects {
+  projects: Project[];
+  in_progress: InProgressProject[];
+}
+
 export interface Project {
   title: string;
   description: string;
   cover_image_url: string;
   read_more_link: string;
+  tags: string[];
+}
+
+export interface InProgressProject {
+  title: string;
+  description: string;
 }
 
 export interface PublicationLink {
@@ -39,7 +50,7 @@ export interface ExperienceItem {
   order: number;
   title: string;
   organization: string;
-  description: string;
+  description_filename: string;
   years: string;
 }
 

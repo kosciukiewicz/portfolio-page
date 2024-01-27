@@ -23,7 +23,7 @@ function RouterView() {
           <Route
             path="*"
             element={
-              <Space size={24} direction="vertical">
+              <Space size={48} direction="vertical">
                 <ExperienceView />
                 <ProjectsView />
                 <ResearchView />
